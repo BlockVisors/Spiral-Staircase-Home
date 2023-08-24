@@ -56,7 +56,7 @@ const WomenLead = () => {
                   
                   <Link
                     href="https://localhost:3001"
-                    className="rounded-md bg-softpeach py-4 px-8 text-base font-semibold text-black/80 duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-concord py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Support Campaigns
                   </Link>
@@ -64,7 +64,7 @@ const WomenLead = () => {
                  <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-6">
                   
                   <Link
-                    href="https://localhost:3001"
+                    href="https://localhost:3001/about"
                     className="rounded-md bg-royalpurple py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Learn More

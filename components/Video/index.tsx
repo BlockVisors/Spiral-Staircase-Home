@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
+import VideoShape from "./shape.svg";
+
 
 import ModalVideo from "react-modal-video";
 import { CldVideoPlayer } from 'next-cloudinary';
@@ -86,7 +88,9 @@ const Video = () => {
     }}
       /> */}
       <div className="absolute bottom-0 left-0 right-0 z-[-1] mb-12">
-        <img src="/images/video/shape.svg" alt="shape" className="w-full" />
+      <Image src={VideoShape} alt="shape" className="w-full" />
+
+        {/* <img src="/images/video/shape.svg" alt="shape" className="w-full" /> */}
       </div>
       <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 mt-20">
                   <Link

@@ -16,9 +16,9 @@ const AboutSectionOne = () => {
       {text}
     </p>
   );
-//Women-led businesses are on the rise. In the United States, women own 42% of all businesses, and this number is expected to grow to 50% by 2024. These businesses are not only good for the economy, but they are also good for women. Women-owned businesses create jobs, boost innovation, and help to close the gender pay gap.
+
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="pt-8 md:pt-10 lg:pt-14">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
          <div className="flex flex-col items-center justify-center">
@@ -27,21 +27,19 @@ const AboutSectionOne = () => {
           </p>
          </div>
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 lg:w-1/2 mb-12">
               <SectionTitle
-                title="Crafted for For Living and Story Telling"
-                paragraph="The Spiral Staircase, slated to open in Tampa, Florida, in 2024, is an upscale club designed for mothers and their children that combines an array of high-quality services with an ambiance drawn from the allure and glamour of the Roaring 20s. 
-                
-                Owned by Christina Hoek, the venue offers diverse experiences including a Coffee and Wine Bar, Beauty Services, Babysitting, Mom and Kid activities, a Wellness Program, and unique Popup Events, creating a haven for moms to relax, rejuvenate, and explore their interests while ensuring their children are well-cared for."
+                title="Crafted for For Living"
+                paragraph="The Spiral Staircase, slated to open in Tampa, Florida, in 2024, is an upscale club designed for mothers and their children that combines an array of high-quality services with an ambiance drawn from the allure and glamour of the Roaring 20s.
+                "
                 mb="44px"
               />
-
               <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                className="wow fadeInUp mb-12 mt-20 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                <div className="mx-[-6px] flex flex-wrap mt-30">
+                  {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Premium quality" />
                     <List text="Tailwind CSS" />
                     <List text="Use for lifetime" />
@@ -51,14 +49,21 @@ const AboutSectionOne = () => {
                     <List text="Next.js" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
-                  </div>
+                  </div> */}
+                   <SectionTitle
+                title="Made For Story Telling"
+                paragraph="
+                Owned by Christina Hoek, the venue offers diverse experiences including a Coffee and Wine Bar, Beauty Services, Babysitting, Mom and Kid activities, a Wellness Program, and unique Popup Events, creating a haven for moms to relax, rejuvenate, and explore their interests while ensuring their children are well-cared for."
+                mb="22px"
+              />
+              
                 </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
               <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                className="wow fadeInUp relative mx-auto aspect-[35/50] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
                 <Image

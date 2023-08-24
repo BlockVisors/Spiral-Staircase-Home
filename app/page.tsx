@@ -21,11 +21,9 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-    
       <Features />
       {/* <Brands /> */}
       <WomenLead />
-      <Article />
       <Pricing />
       {/* <Blog /> */}
       <Contact />

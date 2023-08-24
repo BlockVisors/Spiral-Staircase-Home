@@ -25,10 +25,10 @@ const featuresData: Feature[] = [
     ),
     title: "Community Programs",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Are you a mom looking for a supportive community of like-minded women? Look no further than our private moms club. We are a group of moms who are passionate about raising our children and building strong relationships..",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
        <Image
                   src="/images/icons/spa-96.png"
@@ -41,10 +41,10 @@ const featuresData: Feature[] = [
     ),
     title: "Spa Packages",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "A variety of Spa Offerings. Our massages are designed to relieve stress and tension, while our facials will leave your skin feeling soft and refreshed. Our body wraps will help to detoxify your body and promote relaxation..",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
         <Image
                   src="/images/icons/day-care-96.png"
@@ -57,10 +57,10 @@ const featuresData: Feature[] = [
     ),
     title: "Childcare",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "If you are looking for a luxury child care service that will give your child the best possible start in life.We believe that every child is unique and deserves individualized attention. We would be honored to be your child's second home..",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       <Image
                   src="/images/icons/coffee-64.png"
@@ -73,10 +73,10 @@ const featuresData: Feature[] = [
     ),
     title: "Coffees & Teas",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "We also offer a variety of brewing methods, so you can enjoy your coffee the way you like it. Whether you prefer a drip coffee maker, a French press, or a pour-over, we have the coffee and the brewing gear to make your perfect cup..",
   },
   {
-    id: 1,
+    id: 5,
     icon: (
       <Image
                   src="/images/icons/food-and-wine-96.png"
@@ -89,10 +89,10 @@ const featuresData: Feature[] = [
     ),
     title: "Extensive Wine Selection",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Indulge Your Senses with Our Extensive Wine Selection.Our high-end wine supplier offers an extensive selection of wines from all over the world.We source our wines from the best vineyards, and we only work with the most reputable suppliers.",
   },
   {
-    id: 1,
+    id: 6,
     icon: (
       <Image
                   src="/images/icons/pregnant-96.png"
@@ -105,10 +105,10 @@ const featuresData: Feature[] = [
     ),
     title: "Services For Expecting Moms",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "We understand that pregnancy can be a time of great joy and excitement, but it can also be a time of anxiety and uncertainty. That's why we offer a variety of services (Pre-natal Care, Child-birth prep, pre-natal yoga, etc).",
   },
     {
-    id: 1,
+    id: 7,
     icon: (
       <Image
                   src="/images/icons/activities-64.png"
@@ -121,10 +121,10 @@ const featuresData: Feature[] = [
     ),
     title: "Activities & Events",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Our private club is a place for women to connect, learn, and grow. We offer a variety of events and activities that are designed to empower women and help them reach their full potential(Networking,Education,Social,Volunteering).",
   },
   {
-    id: 1,
+    id: 8,
     icon: (
       <Image
                   src="/images/icons/supper-96.png"
@@ -137,10 +137,10 @@ const featuresData: Feature[] = [
     ),
     title: "Specially Curated Dinners",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Our women's club offers a variety of specially curated dinners that are sure to tantalize your taste buds. We work with some of the best chefs around to create unique and unforgettable dining experiences. Our dinners are designed to stimulate both your tastebuds as well as Storytelling.",
   },
   {
-    id: 1,
+    id: 9,
     icon: (
       <Image
                   src="/images/icons/meeting-96.png"
@@ -153,7 +153,7 @@ const featuresData: Feature[] = [
     ),
     title: "Meeting Rooms",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "Our spaces are all beautifully decorated in the style of the Roaring 20s, and they offer a variety of amenities, such as Wi-Fi, projectors, and sound systems. We also have a team of experienced event planners who can help you execute your event or meeting flawlessly..",
   },
 ];
 export default featuresData;

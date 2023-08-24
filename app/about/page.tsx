@@ -1,5 +1,5 @@
 import ScrollUp from "@/components/Common/ScrollUp";
-
+import Article from "@/components/Article";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
@@ -17,7 +17,7 @@ const AboutPage = () => {
       />
         <Video />
       <AboutSectionOne />
-      <AboutSectionTwo />
+      <Article />
     </>
   );
 };
