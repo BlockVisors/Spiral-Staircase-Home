@@ -68,41 +68,42 @@ const Pricing = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
          
           <PricingBox
-            packageName="Intro"
+            packageName="Visitor/Guest"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="All Basic Amenities."
+            subtitle="Sample All of Our Basic Amenities."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="One-Time Fee" status="active" />
+            <OfferList text="Access to Daily Program" status="active" />
+            <OfferList text="Use of Most Spaces" status="active" />
+            <OfferList text="15% Discount for 2" status="active" />
+            <OfferList text="Includes Intro Tour" status="inactive" />
+            <OfferList text="Discounted Upgrades" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Standard"
-            price={isMonthly ? "399" : "789"}
+            packageName="Community"
+            price={isMonthly ? "150" : "1789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Basic Membership For Regular Vistor."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Includes 2 Parents + 1 Child" status="active" />
+            <OfferList text="Full Access" status="active" />
+            <OfferList text="Limited Use of Rooms" status="active" />
+            <OfferList text="Access to Most Events" status="active" />
+            <OfferList text="Discounted Services" status="active" />
+            <OfferList text="May Exclude some events" status="inactive" />
           </PricingBox>
           <PricingBox
-            packageName="Premium"
-            price={isMonthly ? "589" : "999"}
+            packageName="Club Membership"
+            price={isMonthly ? "300" : "2999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="The Full Club Membership for Events and Services."
           >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
+            <OfferList text="Includes 2 Parents + 1 Child" status="active" />
+            <OfferList text="Everything from Community" status="active" />
+            <OfferList text="Unlimited Use of Facility" status="active" />
+            <OfferList text="Access to All Events" status="active" />
+            <OfferList text="Priority Booking of Spaces" status="active" />
             <OfferList text="Lifetime Access" status="active" />
             <OfferList text="Free Lifetime Updates" status="active" />
           </PricingBox>
