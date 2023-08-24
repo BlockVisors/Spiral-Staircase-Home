@@ -28,7 +28,10 @@ module.exports = {
       venus: "#917f9d",
       softpeach: "#efece7",
       alabaster: "#faf9f8",
-      "body-color": "#959CB1",
+      seapink: "#c13d60",
+      "body-color": "#74788e",
+      // "body-color": "#959CB1",
+     // #74788e
     },
     screens: {
       xs: "450px",
@@ -55,6 +58,14 @@ module.exports = {
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'dusk': "url('/images/dusk.jpeg')",
+        'img2': "url('/img/footer-texture.png')",
+      },
+      backgroundImage: {
+        
+      }
     },
   },
   plugins: [],

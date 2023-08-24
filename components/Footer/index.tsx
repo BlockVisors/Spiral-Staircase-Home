@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp relative z-10 bg-royalpurple bg-opacity-20 pt-16 md:pt-20 lg:pt-24"
+        className="wow fadeInUp relative z-10 bg-royalpurple bg-opacity-20 pt-8 md:pt-10 lg:pt-12"
         data-wow-delay=".1s"
       >
         <div className="container">
@@ -21,7 +21,7 @@ const Footer = () => {
                     height={30}
                   /> */}
                   {/* p */}
-                  <h1 className="text-xl">
+                  <h1 className="text-xl text-bold">
                   SPIRAL STAIRCASE
                   </h1>
                 </Link>

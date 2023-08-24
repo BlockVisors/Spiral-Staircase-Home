@@ -11,12 +11,12 @@ const AboutPage = () => {
   return (
     <>
     <ScrollUp />
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName="About"
         description="Our vision is to be the premier destination for moms and moms-to-be, offering a holistic and enriching experience that supports their well-being and growth"
-      />
-        <Video />
+      /> */}
       <AboutSectionOne />
+       <Video />
       <Article />
     </>
   );

@@ -17,7 +17,7 @@ export default function Article() {
          
         <div className="px-8 py-20 md:px-20 lg:py-24">
           <h1 className="text-5xl font-semibold text-transparent md:text-6xl gradient mb-6">
-            Auth starts here.
+            The Journey starts here.
           </h1>
           <p className="mt-2 text-lg">
             A simple and powerful Next.js template featuring authentication and
@@ -26,15 +26,15 @@ export default function Article() {
           <div className="flex gap-2 mt-8">
             <Link
               href="/dashboard"
-              className="flex content-center gap-2 px-4 py-2 font-semibold text-gray transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
+              className="flex content-center gap-2 px-4 py-2 font-bold text-base text-seapink transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              View Demo
+              Explore Membership
               <div className="m-auto">
                 <RightArrow />
               </div>
             </Link>
             <a
-              className="flex gap-2 px-4 py-2 font-semibold text-gray-600 transition duration-100 rounded-lg hover:text-gray-800"
+              className="flex gap-2 px-4 py-2 font-bold text-base text-royalpurple transition duration-100 rounded-lg hover:text-gray-800"
               href="#features"
             >
               Learn more
@@ -58,7 +58,7 @@ export default function Article() {
           The Spiral Staircase. To learn more, take our brief {" "}
           <a
             href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
-            className="font-medium text-primary-600 hover:underline"
+            className="font-xl font-bold text-dark-800 hover:underline"
           >
             Survey
           </a>
@@ -66,45 +66,43 @@ export default function Article() {
         </p>
         <div className="grid gap-8 mt-8 lg:grid-cols-3">
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl dark:text-black/90">
-            <h3 className="text-lg font-medium">Elevated Childcare</h3>
+            <h3 className="mb-2 text-lg !leading-tight font-semibold text-transparent md:text-lg gradient text-black sm:text-lg md:text-[45px]">Elevated Childcare</h3>
             <p className="text-gray-700 dark:text-gray-700">
-              Prebuilt components to handle essential functionality like user
-              sign-in, sign-up, and account management.
+              Our experienced and qualified staff will provide your child with a safe, nurturing environment.
             </p>
             <div className="grow"></div>
             <a
               href="https://clerk.com/docs/component-reference/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
-              className="text-primary-600 cta hover:underline"
+              className="text-royalpurple text-bold cta hover:underline"
               target="_blank"
             >
               See Packages <span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl dark:text-black/90">
-            <h3 className="text-lg font-medium color-gradient">Events & Experiences</h3>
+            
+              <h3 className="mb-2 text-lg !leading-tight font-semibold text-transparent md:text-lg gradient text-black sm:text-lg md:text-[45px]">Events & Experiences</h3>
             <p className="text-gray-700">
-              Build custom functionality by accessing auth state, user and
-              session data, and more with Clerk React Hooks.
+              We also offer a variety of amenities, such as a fitness center, a spa, and a library. Relax, and recharge!
             </p>
             <div className="grow"></div>
             <a
               href="https://clerk.com/docs/reference/clerk-react/useuser?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
-              className="text-primary-600 cta hover:underline"
+              className="text-royalpurple text-bold cta hover:underline"
               target="_blank"
             >
              View Calendar<span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl dark:text-black/90">
-            <h3 className="text-lg font-medium">Fine Wine & Dining</h3>
+          <h3 className="mb-2 text-lg !leading-tight font-semibold text-transparent md:text-lg gradient text-black sm:text-lg md:text-[45px]">Fine Wine & Dining</h3>            
             <p className="text-gray-700">
-              Seamlessly create and switch between organizations, invite and
-              manage members, and assign custom roles.
+              Our dinners are held in our elegant dining room, which is the perfect setting for a special occasion.
             </p>
             <div className="grow"></div>
             <a
               href="https://clerk.com/docs/organizations/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
-              className="text-primary-600 cta hover:underline"
+              className="text-royalpurple text-bold cta hover:underline"
               target="_blank"
             >
               View Vendors<span className="arrow">-&gt;</span>

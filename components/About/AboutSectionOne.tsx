@@ -18,21 +18,21 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-8 md:pt-10 lg:pt-14">
+    <section id="about" className="pt-8 md:pt-18 lg:pt-36">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="border-b border-body-color/[.15] pb-16 pt-18 dark:border-white/[.15] md:pb-20 lg:pb-28">
          <div className="flex flex-col items-center justify-center">
-          <p className="inline-block px-3 py-px mb-8 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            The Story
+          <p className="inline-block px-3 py-px mb-12 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            About Us
           </p>
          </div>
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2 mb-12">
+            <div className="w-full px-6 lg:w-1/2 mb-12">
               <SectionTitle
                 title="Crafted for For Living"
                 paragraph="The Spiral Staircase, slated to open in Tampa, Florida, in 2024, is an upscale club designed for mothers and their children that combines an array of high-quality services with an ambiance drawn from the allure and glamour of the Roaring 20s.
                 "
-                mb="44px"
+                mb="44px" 
               />
               <div
                 className="wow fadeInUp mb-12 mt-20 max-w-[570px] lg:mb-0"
@@ -69,8 +69,9 @@ const AboutSectionOne = () => {
                 <Image
                   src="/images/ss4.jpeg"
                   alt="about-image"
-                  fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  height={300}
+                  width={450}
+                  className="mx-auto max-w-full lg:mr-6"
                 />
               </div>
             </div>

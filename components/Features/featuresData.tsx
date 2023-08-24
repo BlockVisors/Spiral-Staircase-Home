@@ -121,7 +121,7 @@ const featuresData: Feature[] = [
     ),
     title: "Activities & Events",
     paragraph:
-      "Our private club is a place for women to connect, learn, and grow. We offer a variety of events and activities that are designed to empower women and help them reach their full potential(Networking,Education,Social,Volunteering).",
+      "Our private club is a place for women to connect, learn, and grow. We offer a variety of events and activities that are designed to empower women and help them reach their full potential. Including Networking, Education, Social and Volunteering.",
   },
   {
     id: 8,

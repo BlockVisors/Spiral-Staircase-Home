@@ -56,7 +56,7 @@ const WomenLead = () => {
                   
                   <Link
                     href="https://localhost:3001"
-                    className="rounded-md bg-concord py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-seapink/80 shadow-lg py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Support Campaigns
                   </Link>
@@ -65,7 +65,7 @@ const WomenLead = () => {
                   
                   <Link
                     href="https://localhost:3001/about"
-                    className="rounded-md bg-royalpurple py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-royalpurple shadow-lg py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/30 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
                   >
                     Learn More
                   </Link>
@@ -79,11 +79,11 @@ const WomenLead = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/image11-370.jpeg"
+                  src="/images/hab.jpeg"
                   alt="women"
-                //   height={400}
-                //   width={500}
-                  fill
+                height={400}
+                width={500}
+                //   fill
                   className="mx-auto max-w-full lg:mr-0"
                 />
               </div>
