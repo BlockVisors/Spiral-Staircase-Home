@@ -104,7 +104,6 @@ const Pricing = () => {
             <OfferList text="Unlimited Use of Facility" status="active" />
             <OfferList text="Access to All Events" status="active" />
             <OfferList text="Priority Booking of Spaces" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
           </PricingBox>
         </div>
       </div>
