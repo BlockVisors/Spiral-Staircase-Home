@@ -10,11 +10,12 @@ const PricingBox = (props: {
   return (
     <div className="w-full">
       <div
-        className="wow fadeInUp relative z-10 rounded-md text-center bg-white px-8 py-10 shadow-signUp dark:bg-[#1D2144]"
-        data-wow-delay=".1s"
+        className="wow fadeInUp relative z-10 rounded-md flex-col text-center bg-white px-8 py-10 shadow-signUp dark:bg-[#1D2144]"
+        data-wow-delay=".4s"
       >
-         <div className="flex justify-between">
-         <h4 className="mb-2 text-2xl font-semibold text-dark dark:text-white/90 text-center">
+        <div className="flex-col grid place-items-center">
+         <div className= "grid place-items-center">
+         <h4 className="mb-2 text-2xl font-semibold text-dark dark:text-white/90">
             {packageName}
           </h4>
           </div>
@@ -24,11 +25,12 @@ const PricingBox = (props: {
             $<span className="amount">{price}</span>
             <span className="time text-body-color">/{duration}</span>
           </h4>
-          
         </div>
+        </div>
+
         <p className="mb-7 text-base text-concord dark:text-white/90">{subtitle}</p>
         <div className="mb-8 border-b border-body-color border-opacity-10 pb-8 dark:border-white dark:border-opacity-10">
-        <a href="https://spiral-staircase-shop-mxfn.vercel.app/product/52bc3532-5dcd-423d-91a8-853279502437">
+        <a href="https://spiral-staircase-shop-mxfn.vercel.app/">
           <button className="flex w-full items-center justify-center rounded-md bg-royalpurple/90 transition-opacity p-3 text-base font-semibold text-white/90 duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
             Start Free Trial
           </button>
