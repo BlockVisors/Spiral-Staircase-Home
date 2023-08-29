@@ -6,11 +6,13 @@ import PricingBox from "./PricingBox";
 
 const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
+  const dpassDuration = "day";
+  const dpassPrice = "35";
 
   return (
-    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
+    <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28 dark:bg-dark">
      <div className="flex flex-col items-center justify-center">
-          <p className="inline-block px-3 py-px mb-8 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block px-3 py-px mb-8 text-xs font-semibold  tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
             Pricing
           </p>
          </div>
@@ -69,8 +71,8 @@ const Pricing = () => {
          
           <PricingBox
             packageName="Visitor/Guest"
-            price={isMonthly ? "40" : "120"}
-            duration={isMonthly ? "mo" : "yr"}
+            price={dpassPrice}
+            duration={dpassDuration}
             subtitle="Sample All of Our Basic Amenities."
           >
             <OfferList text="One-Time Fee" status="active" />
@@ -97,13 +99,14 @@ const Pricing = () => {
             packageName="Club Membership"
             price={isMonthly ? "300" : "2999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="The Full Club Membership for Events and Services."
+            subtitle="The Full Club Membership Experience"
           >
             <OfferList text="Includes 2 Parents + 1 Child" status="active" />
             <OfferList text="Everything from Community" status="active" />
             <OfferList text="Unlimited Use of Facility" status="active" />
             <OfferList text="Access to All Events" status="active" />
             <OfferList text="Priority Booking of Spaces" status="active" />
+            <OfferList text="Priority Reservation/Event" status="active" />
           </PricingBox>
         </div>
       </div>

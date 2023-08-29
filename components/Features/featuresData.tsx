@@ -57,7 +57,7 @@ const featuresData: Feature[] = [
     ),
     title: "Childcare",
     paragraph:
-      "If you are looking for a luxury child care service that will give your child the best possible start in life.We believe that every child is unique and deserves individualized attention. We would be honored to be your child's second home..",
+      "If you are looking for a luxury child care service that will give your child the best possible start in life.We believe that every child is unique and deserves individualized attention. We want to be your child's second home..",
   },
   {
     id: 4,
@@ -89,7 +89,7 @@ const featuresData: Feature[] = [
     ),
     title: "Extensive Wine Selection",
     paragraph:
-      "Indulge Your Senses with Our Extensive Wine Selection.Our high-end wine supplier offers an extensive selection of wines from all over the world.We source our wines from the best vineyards, and we only work with the most reputable suppliers.",
+      "Indulge Your Senses with Our Extensive Wine Selection. Our high-end wine supplier offers a selection of wines that you will enjoy. We source our wines from the best vineyards, and we have a specially curated selection.",
   },
   {
     id: 6,
@@ -137,7 +137,7 @@ const featuresData: Feature[] = [
     ),
     title: "Specially Curated Dinners",
     paragraph:
-      "Our women's club offers a variety of specially curated dinners that are sure to tantalize your taste buds. We work with some of the best chefs around to create unique and unforgettable dining experiences. Our dinners are designed to stimulate both your tastebuds as well as Storytelling.",
+      "Our women's club offers a variety of specially curated dinners on rotation. We work with some of the best chefs around to create unique and unforgettable dining experiences. Our dinners are designed to stimulate both your tastebuds as well as Storytelling.",
   },
   {
     id: 9,

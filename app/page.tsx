@@ -13,6 +13,7 @@ import { Team } from "@/components/Team";
 import WomenLead from "@/components/WomenLead";
 import Article from "@/components/Article";
 import { Inter } from "@next/font/google";
+import TampaWomen from "@/components/TampaWomen";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function Home() {
       <Hero />
       <Features />
       {/* <Brands /> */}
-      <WomenLead />
+      <TampaWomen />
       <Pricing />
       {/* <Blog /> */}
       <Contact />
